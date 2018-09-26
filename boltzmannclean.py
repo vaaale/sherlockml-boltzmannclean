@@ -123,8 +123,8 @@ def reverse_dummy_encoding(dummy_dataframe, category_dict):
                 category_dict[colname],
             )
             for colname in category_dict.keys()
-        },
-        dtype="object",
+        }#,
+        # dtype="object",
     )
 
     return dataframe
